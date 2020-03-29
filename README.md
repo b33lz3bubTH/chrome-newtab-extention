@@ -1,2 +1,2 @@
 # chrome-newtab-extention
-![Img](https://imgur.com/HOgFdGH)
+![Img](https://i.imgur.com/HOgFdGH.png)
