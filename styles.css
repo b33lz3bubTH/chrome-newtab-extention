@@ -1,18 +1,17 @@
 body {
-    background-image: url("beach.jpg");
-    background-size: cover;
+    background-image: url("cherryblossom.gif");
+    background-size: no-repeat;
     /* background: #1D1F28; */
     margin: 0px;
 /*    filter: blur(8px);
   -webkit-filter: blur(8px);*/
-
 }
 #date{
     font-family: 'Courier New', Courier, monospace;
     font-size:15pt;
     font-weight: 400;
     font-family: sans-serif;
-    color: #FDFDFD;
+    color: black;
     margin-bottom: .25em;
 }
 input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -26,7 +25,9 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 .redColorSpan{
     color: red;
 }
-
+.row ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: black;
+}
 hr{
     width:80%
 }
@@ -37,15 +38,18 @@ hr{
 input[type=text] {
     border: none;
     font-size:14pt;
-    border-bottom: 2px solid #FDFDFD;
+    border-bottom: 2px solid black;
     margin: 5px;
     padding: 20px 5px 2px 5px;
     border-radius: 5%;
     color: #FDFDFD;
     background:transparent ;
 }
+
+
 input[type=text]:focus { 
     outline:0 !important;
+    color: black;
 }
 
 
@@ -63,7 +67,8 @@ input[type=text]:focus {
     font-size: 50pt;
     font-weight: 400;
     font-family: sans-serif;
-    color: #FDFDFD;
+    
+    color: black;
     margin-bottom: .25em;
 }
 
