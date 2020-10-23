@@ -44,6 +44,7 @@ window.onload = () => {
     document.getElementById("date").innerHTML = getDate();
 
     var addItemToList = function(task){
+	//localStorage.setItem("todo", "Email Templates, Python3 Work");
         var ulElem = document.getElementById("toDolist");
         var li = document.createElement("li");
         li.appendChild(document.createTextNode(task));
