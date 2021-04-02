@@ -1,5 +1,8 @@
 body {
-    background-image: url("cherryblossom.gif");
+    /* background-image: url("cherryblossom.gif");
+     */
+    background-image: url("amine_city.jpg");
+
     background-size: no-repeat;
     /* background: #1D1F28; */
     margin: 0px;
@@ -11,7 +14,7 @@ body {
     font-size:15pt;
     font-weight: 400;
     font-family: sans-serif;
-    color: black;
+    color: white;
     margin-bottom: .25em;
 }
 input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -26,7 +29,7 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: red;
 }
 .row ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: black;
+    color: white;
 }
 hr{
     width:80%
@@ -38,7 +41,7 @@ hr{
 input[type=text] {
     border: none;
     font-size:14pt;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
     margin: 5px;
     padding: 20px 5px 2px 5px;
     border-radius: 5%;
@@ -49,7 +52,7 @@ input[type=text] {
 
 input[type=text]:focus { 
     outline:0 !important;
-    color: black;
+    color: white;
 }
 
 
@@ -68,7 +71,7 @@ input[type=text]:focus {
     font-weight: 400;
     font-family: sans-serif;
     
-    color: black;
+    color: white;
     margin-bottom: .25em;
 }
 
