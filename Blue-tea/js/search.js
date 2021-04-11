@@ -64,55 +64,55 @@ function search(query) {
 		case '-d':
 			query = query.substr(3);
 			window.open('https://duckduckgo.com/' +
-				query.replaceChars(' ', '%20'), '_blank');
+				query.replaceChars(' ', '%20'), '_self');
 			break;
 		case '-y':
 			query = query.substr(3);
 			window.open('https://www.youtube.com/results?search_query=' +
-				query.replaceChars(' ', '%20'), '_blank');
+				query.replaceChars(' ', '%20'), '_self');
 			break;
 		case '-a':
 			query = query.substr(3);
 			window.open(
 				'https://www.amazon.it/s?k=' +
-				query.replaceChars(' ', '%20'), '_blank');
+				query.replaceChars(' ', '%20'), '_self');
 			break;
 		case '-r':
 			query = query.substr(3);
 			window.open(
 				'https://www.reddit.com/r/' +
-				query.replaceChars(' ', '%20'), '_blank');
+				query.replaceChars(' ', '%20'), '_self');
 			break;
 		case '-w':
 			query = query.substr(3);
 			window.open(
 				'https://wiki.archlinux.org/index.php?search=' +
-				query.replaceChars(' ', '%20'), '_blank');
+				query.replaceChars(' ', '%20'), '_self');
 			break;
 		case '-s':
 			query = query.substr(3);
 			window.open(
 				'https://open.spotify.com/search/' +
-				query.replaceChars(' ', '%20'), '_blank');
+				query.replaceChars(' ', '%20'), '_self');
 			break;
 		case '-n':
 			query = query.substr(3);
 			window.open(
 				'https://www.netflix.com/search?q=' +
-				query.replaceChars(' ', '%20'), '_blank');
+				query.replaceChars(' ', '%20'), '_self');
 			break;
 		case '-g':
 			query = query.substr(3);
 			window.open(
 				'https://github.com/search?q=' +
-				query.replaceChars(' ', '%20'), '_blank');
+				query.replaceChars(' ', '%20'), '_self');
 			break;
 		case '-h':
 			lista();
 			break;
 		default:
 			window.open('https://www.google.com/search?q=' +
-				query.replaceChars(' ', '%20'), '_blank');
+				query.replaceChars(' ', '%20'), '_self');
 	}
 }
 
